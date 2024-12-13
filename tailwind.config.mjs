@@ -10,6 +10,7 @@ export default {
       fontFamily: {
         fontJeju: "var(--font-Jeju)",
         fontIrian: "var(--font-Irian)",
+        fontIsland: "var(--font-Island)",
       },
       width: {
         containeritemsWidth: "1798px",

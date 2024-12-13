@@ -1,5 +1,5 @@
-import HeaderComponents from "@/components/HeaderComponents";
-import MainComponents from "@/components/MainComponents/MainComponents";
+import HeaderComponents from "@/app/components/HeaderComponents";
+import MainComponents from "@/app/components/MainComponents/MainComponents";
 export default function Home() {
   return (
     <>
