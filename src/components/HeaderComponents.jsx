@@ -1,14 +1,5 @@
 "use client";
 
-import "@/app/globals.css";
-import { Inria_Serif } from "next/font/google";
-
-const InriaSerif = Inria_Serif({
-  subsets: ["latin"],
-  weight: ["400"],
-  display: "swap",
-});
-
 import { CiShoppingCart } from "react-icons/ci";
 
 export default function HeaderComponents() {
@@ -16,7 +7,7 @@ export default function HeaderComponents() {
     <header
       className="flex flex-col max-h-headerHeight
       h-headerHeight w-full bg-cover bg-center text-white"
-      id="header" 
+      id="header"
     >
       <nav className="font-fontJeju flex justify-between h-[121px]">
         <h2 className="text-4xl w-[194px] tracking-widest my-3 mx-5 h-fit">
@@ -35,9 +26,7 @@ export default function HeaderComponents() {
         <h1 className="text-6xl font-fontJeju font-normal tracking-spaceTitle">
           The Beste Coffee
         </h1>
-        <p className={`${InriaSerif.className} my-2`}>
-          Um bom café, transforma dias
-        </p>
+        <p className="font-fontIrian my-2">Um bom café, transforma dias</p>
       </div>
     </header>
   );

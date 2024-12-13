@@ -9,6 +9,7 @@ export default {
     extend: {
       fontFamily: {
         fontJeju: "var(--font-Jeju)",
+        fontIrian: "var(--font-Irian)",
       },
       width: {
         containeritemsWidth: "1798px",
@@ -16,7 +17,7 @@ export default {
       },
       height: {
         headerHeight: "500px",
-        mainOneHeight: "calc(100vh - 500px)",
+        mainOneHeight: "581px",
         containerSectionHeight: "270px",
       },
       letterSpacing: {

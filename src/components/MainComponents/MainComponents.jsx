@@ -1,18 +1,10 @@
-import { Inria_Serif } from "next/font/google";
-import Image from "next/image";
 import DisplayOfProducts from "./DisplayOfProducts";
-
-const InriaSerif = Inria_Serif({
-  subsets: ["latin"],
-  weight: ["400"],
-  display: "swap",
-});
 
 export default function MainComponents() {
   return (
-    <main className="bg-backgroundMain w-full py-[47px] px-[61px] h-mainOneHeight">
-      <article className="w-containeritemsWidth bg-backgroundArticle h-[350px] rounded-xl flex flex-col">
-        <p className={`${InriaSerif.className} text-2xl mt-[26px] ml-[20px]`}>
+    <main className="bg-backgroundMain w-full py-[47px] px-[61px] h-mainOneHeight overflow-hidden">
+      <article className="2xl:w-containeritemsWidth bg-backgroundArticle h-[488px] xl:w-[1400px] rounded-xl flex flex-col">
+        <p className="text-2xl mt-[40px] ml-[20px] mb-[80px] font-fontIrian tracking-wider">
           Com melhores avaliações
         </p>
         <DisplayOfProducts />

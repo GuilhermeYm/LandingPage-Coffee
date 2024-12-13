@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,10 +7,11 @@
 :root {
   /*Font Family*/
   --font-Jeju: "JejuMyeongjo", serif;
+  --font-Irian: "Inria Serif", serif;
 
   /*Background*/
   --background-main: #261514;
-  --background-article: #FFF7E8 ;
+  --background-article: #fff7e8;
   --background-section: #403434;
 }
 
@@ -20,8 +23,7 @@
 }
 
 #header {
-  background-image: url("../../public/header.png");
-  background-size: cover ;
+  background-image: url("../../public/images/header.png");
 }
 
 body {
