@@ -15,3 +15,6 @@ Eu quero criar um site, que irá ter uma página, no qual, terá a apresentaçã
 - Contato
 - Login 
 - Carrinho
+
+## Fonts Usadas 
+- JejuMyeongjo

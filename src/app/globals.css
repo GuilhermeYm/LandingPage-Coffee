@@ -3,15 +3,25 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /*Font Family*/
+  --font-Jeju: "JejuMyeongjo", serif;
+
+  /*Background*/
+  --background-main: #261514;
+  --background-article: #FFF7E8 ;
+  --background-section: #403434;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: "JejuMyeongjo";
+  src: url("../../public/fonts/JejuMyeongjo-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#header {
+  background-image: url("../../public/header.png");
+  background-size: cover ;
 }
 
 body {
