@@ -19,6 +19,7 @@ export default {
         headerHeight: "500px",
         mainOneHeight: "581px",
         containerSectionHeight: "270px",
+        AboutUSHeight: "348px",
       },
       letterSpacing: {
         spaceTitle: "0.2em",
@@ -27,6 +28,7 @@ export default {
         backgroundMain: "var(--background-main)",
         backgroundArticle: "var(--background-article)",
         backgroundSection: "var(--background-section)",
+        backgroundAboutUs: "var(--background-AboutUs)",
       },
     },
   },

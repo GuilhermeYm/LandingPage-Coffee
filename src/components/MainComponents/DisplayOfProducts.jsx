@@ -28,11 +28,11 @@ export default function DisplayOfProducts() {
     }
   ]);
   return (
-    <div className="px-[42px]">
-      {theBestProducts.map((p) => (
+    <div className="px-[42px] flex gap-6">
+      {theBestProducts.map((p, index) => (
         <section
           className="bg-backgroundSection h-containerSectionHeight w-containerSectionWidth flex flex-col rounded-3xl"
-          key={p.id}
+          key={index}
         >
           {/*Imagem do produto */}
           <div className="my-[14px] mx-[26px] mb-[11px] flex">
