@@ -9,7 +9,7 @@ const inter = Inter({
 
 export default function AboutUsComponents() {
   return (
-    <div className="w-full flex h-AboutUSHeight bg-backgroundAboutUs gap-[141px]">
+    <article className="w-full flex h-AboutUSHeight bg-backgroundAboutUs gap-[141px]">
       <section className=" justify-center items-center w-[584px] flex">
         <Image
           src="/images/AboutUs.png"
@@ -35,6 +35,6 @@ export default function AboutUsComponents() {
           </p>
         </div>
       </section>
-    </div>
+    </article>
   );
 }

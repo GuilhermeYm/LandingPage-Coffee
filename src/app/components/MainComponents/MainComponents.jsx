@@ -1,5 +1,6 @@
 import AboutUsComponents from "./AboutUsComponents";
 import DisplayOfProducts from "./DisplayOfProducts";
+import ServicesComponents from "./ServicesComponents";
 
 export default function MainComponents() {
   return (
@@ -13,6 +14,7 @@ export default function MainComponents() {
         </article>
       </main>
       <AboutUsComponents />
+      <ServicesComponents />
     </>
   );
 }

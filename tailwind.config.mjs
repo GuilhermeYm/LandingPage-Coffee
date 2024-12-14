@@ -15,12 +15,14 @@ export default {
       width: {
         containeritemsWidth: "1798px",
         containerSectionWidth: "214px",
+        ServiceItem: "299px",
       },
       height: {
         headerHeight: "500px",
         mainOneHeight: "581px",
         containerSectionHeight: "270px",
         AboutUSHeight: "348px",
+        ServiceItemHeight: "294px",
       },
       letterSpacing: {
         spaceTitle: "0.2em",
@@ -30,6 +32,8 @@ export default {
         backgroundArticle: "var(--background-article)",
         backgroundSection: "var(--background-section)",
         backgroundAboutUs: "var(--background-AboutUs)",
+        backgroundServices: "var(--background-Services)",
+        backgroundServicesItems: "var(--background-ServicesItems)",
       },
     },
   },
