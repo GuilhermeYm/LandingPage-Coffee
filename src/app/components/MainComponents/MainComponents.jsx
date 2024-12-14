@@ -1,5 +1,6 @@
 import AboutUsComponents from "./AboutUsComponents";
 import DisplayOfProducts from "./DisplayOfProducts";
+import FooterComponents from "./FooterComponents";
 import ServicesComponents from "./ServicesComponents";
 
 export default function MainComponents() {
@@ -15,6 +16,7 @@ export default function MainComponents() {
       </main>
       <AboutUsComponents />
       <ServicesComponents />
+      <FooterComponents />
     </>
   );
 }

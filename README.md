@@ -1,20 +1,29 @@
-# Ideas - Landing Page Bico's Coffe 
+# Bico's Coffe
 
-Eu quero criar um site, que irá ter uma página, no qual, terá a apresentação dos produtos, entre outras coisas. E também, quero criar uma api, no qual, administradores poderá fazer algumas coisas, que ainda estou definindo. 
+Uma simples página de uma cafeteria, que também apresenta um sistema de por trás.
 
-## O que eu preciso fazer ? 
-
-- [ ] Desenvolver a Landing Page 
-- [ ] Desenvolver a API 
-
-## Landing Page 
+## Landing Page
 
 ### Navbar
 
-- Home 
+- Home
 - Contato
-- Login 
+- Login
 - Carrinho
 
-## Fonts Usadas 
+## Back-End
+
+### Carregamento
+
+Fiz com que todo o carregamento de dados fosse feito por meio de um BackEnd, para futuramente os administradores conseguir editor o valor, entre outros coisas, pelo painel.
+
+## Fonts Usadas
+
 - JejuMyeongjo
+- Island Moments
+- Holtwood One SC
+- Inria Serif
+
+## Fotos Usadas
+
+Foram todas tiradas do **Pinterest**, e futuramente criarei um **pin** com todas as imagens.

@@ -16,6 +16,7 @@ export default {
         containeritemsWidth: "1798px",
         containerSectionWidth: "214px",
         ServiceItem: "299px",
+        productArticleWidth: "1046px",
       },
       height: {
         headerHeight: "500px",
@@ -23,6 +24,8 @@ export default {
         containerSectionHeight: "270px",
         AboutUSHeight: "348px",
         ServiceItemHeight: "294px",
+        HeightDefault: "100vh",
+        HeightArticleProduct: "850px"
       },
       letterSpacing: {
         spaceTitle: "0.2em",
@@ -34,6 +37,7 @@ export default {
         backgroundAboutUs: "var(--background-AboutUs)",
         backgroundServices: "var(--background-Services)",
         backgroundServicesItems: "var(--background-ServicesItems)",
+        backgroundFooter: "var(--background-Footer)",
       },
     },
   },

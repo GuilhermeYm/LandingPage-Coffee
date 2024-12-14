@@ -1,0 +1,45 @@
+{
+  "coffees": [
+    {
+      "id": 1,
+      "image": "/image/coffees/Coffee",
+      "name": "Café Expresso",
+      "description": "Café encorpado feito com grãos 100% arábica.",
+      "origin": "Brasil",
+      "price": 5.0,
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Café Latte",
+      "description": "Café com leite vaporizado e espuma cremosa.",
+      "origin": "Itália",
+      "price": 7.5,
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "Cappuccino",
+      "description": "Café, leite vaporizado e uma camada de espuma.",
+      "origin": "Itália",
+      "price": 6.0,
+      "available": false
+    },
+    {
+      "id": 4,
+      "name": "Café Mocha",
+      "description": "Café expresso, chocolate e leite vaporizado.",
+      "origin": "México",
+      "price": 8.0,
+      "available": true
+    },
+    {
+      "id": 5,
+      "name": "Café Macchiato",
+      "description": "Café expresso com um toque de leite.",
+      "origin": "Itália",
+      "price": 5.5,
+      "available": true
+    }
+  ]
+}
