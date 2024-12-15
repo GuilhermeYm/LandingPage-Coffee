@@ -1,8 +1,8 @@
 import data from "../../server.json";
 
 export async function GET(request, { params }) {
-  const id = 1;
-  const coffeWithId = data.coffees.filter((c) => c.id === id);
-  console.log(coffeWithId[0].id)
-  return Response.json({ coffeWithId});
+  const idString = (await params).idProduct;
+  const idNumber = Number(idString);
+  const coffeWithId = data.coffees.filter((c) => c.id === idNumber);
+  return Response.json({ coffeWithId });
 }

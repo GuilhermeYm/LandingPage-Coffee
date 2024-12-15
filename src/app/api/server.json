@@ -2,28 +2,79 @@
   "coffees": [
     {
       "id": 1,
-      "image": "/image/coffees/Coffee",
+      "image": "/images/coffees/coffeeE.png",
       "name": "Café Expresso",
       "description": "Café encorpado feito com grãos 100% arábica.",
       "origin": "Brasil",
       "price": 5.0,
-      "available": true
+      "stars": 5,
+      "available": true,
+      "vars": [
+        {
+          "name": "Com açúcar",
+          "price": 5.0,
+          "available": true
+        },
+        {
+          "name": "Sem açúcar",
+          "price": 5.0,
+          "available": true
+        },
+        {
+          "name": "Com adoçante",
+          "price": 5.0,
+          "available": false
+        }
+      ]
     },
     {
       "id": 2,
+      "image": "/images/coffees/CoffeeLatte.png",
       "name": "Café Latte",
       "description": "Café com leite vaporizado e espuma cremosa.",
       "origin": "Itália",
       "price": 7.5,
-      "available": true
+      "stars": 5,
+      "available": true,
+      "vars": [
+        {
+          "name": "Café Latte Grande",
+          "price": 7.5,
+          "available": true
+        },
+        {
+          "name": "Café Latte  Médio",
+          "price": 6.5,
+          "available": true
+        },
+        {
+          "name": "Café Latte Pequeno",
+          "price": 5.5,
+          "available": false
+        }
+      ]
     },
     {
       "id": 3,
-      "name": "Cappuccino",
-      "description": "Café, leite vaporizado e uma camada de espuma.",
+      "image": "/images/cappuccinos/Cappuccino.png",
+      "name": "Cappuccino c/ calda...",
+      "description": "Cappuccino com calda de chocolate e chantilly.",
       "origin": "Itália",
       "price": 6.0,
-      "available": false
+      "stars": 5,
+      "available": false,
+      "vars": [
+        {
+          "name": "Calda de Chocolate",
+          "price": 7.6,
+          "available": true
+        },
+        {
+          "name": "Calda de caramelo",
+          "price": 8.0,
+          "available": false
+        }
+      ]
     },
     {
       "id": 4,
@@ -31,7 +82,20 @@
       "description": "Café expresso, chocolate e leite vaporizado.",
       "origin": "México",
       "price": 8.0,
-      "available": true
+      "stars": 4.5,
+      "available": true,
+      "vars": [
+        {
+          "name": "Tradicional",
+          "price": 8.0,
+          "available": true
+        },
+        {
+          "name": "Com leite de amêndoas",
+          "price": 9.0,
+          "available": true
+        }
+      ]
     },
     {
       "id": 5,
@@ -39,6 +103,54 @@
       "description": "Café expresso com um toque de leite.",
       "origin": "Itália",
       "price": 5.5,
+      "star": 4.5,
+      "available": true
+    }
+  ],
+  "salgados": [
+    {
+      "id": 1,
+      "name": "Misto Quente",
+      "description": "Pão de forma com queijo e presunto.",
+      "origin": "Portugal",
+      "price": 5.5,
+      "star": 4.5,
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Coxinha",
+      "description": "Massa de trigo recheada com frango e frita.",
+      "origin": "Brasil",
+      "price": 4.0,
+      "star": 5.0,
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "Empada de Frango",
+      "description": "Massa crocante recheada com frango desfiado.",
+      "origin": "Portugal",
+      "price": 3.5,
+      "star": 4.0,
+      "available": false
+    },
+    {
+      "id": 4,
+      "name": "Pastel de Queijo",
+      "description": "Massa fina e crocante recheada com queijo derretido.",
+      "origin": "Brasil",
+      "price": 6.0,
+      "star": 4.8,
+      "available": true
+    },
+    {
+      "id": 5,
+      "name": "Quibe",
+      "description": "Mistura de carne moída e trigo recheado com temperos árabes.",
+      "origin": "Líbano",
+      "price": 4.5,
+      "star": 4.3,
       "available": true
     }
   ]
