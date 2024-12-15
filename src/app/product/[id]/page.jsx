@@ -1,32 +1,18 @@
-"use client";
-
 import FirstPartSection from "@/app/components/ProductsInformations/FirstPartSection";
 import SecondPartSection from "@/app/components/ProductsInformations/SecondPartSection";
-import { useEffect, useState } from "react";
 
-export default function Page({ params }) {
-  const [coffe, setCoffe] = useState(null);
-  // const idString = (await params).id;
-  // const idNumber = Number(idString);
+const fetchProduct = async (id) => {
+  const response = await fetch(`http://localhost:3000/api/products/1`);
+  const data = await response.json();
+  console.log(data.coffeWithId[0].id)
+  return data.coffeWithId[0];
+}
 
-  useEffect(() => {
-    const fecthData = async () => {
-      const data = await fetch(`http://localhost:3000/api/products/1`);
-      const dataObject = await data.json();
-      const correctCoffe = dataObject.coffeWithId[0];
-      console.log(correctCoffe)
-      setCoffe(correctCoffe)
-    };
-    fecthData();
-  }, []);
+export default async function Page({ params }) {
+  const idString = (await params).id 
+  const idNumber = Number(idString)
 
-  if (!coffe) {
-    return (
-      <main className="bg-backgroundMain text-white flex">
-        <p>Carregando os detalhes do produto...</p>
-      </main>
-    );
-  }
+  const coffe = await fetchProduct(idNumber)
 
   return (
     <>
@@ -37,6 +23,7 @@ export default function Page({ params }) {
           </h1>
           <section className="rounded-xl w-[1009px] h-4/5 bg-backgroundSection mx-4 text-white">
             <FirstPartSection data={coffe} />
+            <SecondPartSection data={coffe} />
           </section>
         </article>
       </main>
