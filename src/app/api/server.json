@@ -4,9 +4,8 @@
       "id": 1,
       "image": "/images/coffees/coffeeE.png",
       "name": "Café Expresso",
-      "description": "Café encorpado feito com grãos 100% arábica.",
+      "description": "Um café intenso, encorpado e aromático, preparado exclusivamente com grãos 100% arábica. Ideal para quem busca uma experiência autêntica e refinada.",
       "origin": "Brasil",
-      "price": 5.0,
       "stars": 5,
       "available": true,
       "vars": [
@@ -31,9 +30,8 @@
       "id": 2,
       "image": "/images/coffees/CoffeeLatte.png",
       "name": "Café Latte",
-      "description": "Café com leite vaporizado e espuma cremosa.",
+      "description": "Combinação perfeita de café expresso com leite vaporizado, finalizado com uma espuma cremosa que proporciona uma textura aveludada e suave.",
       "origin": "Itália",
-      "price": 7.5,
       "stars": 5,
       "available": true,
       "vars": [
@@ -43,7 +41,7 @@
           "available": true
         },
         {
-          "name": "Café Latte  Médio",
+          "name": "Café Latte Médio",
           "price": 6.5,
           "available": true
         },
@@ -57,10 +55,9 @@
     {
       "id": 3,
       "image": "/images/cappuccinos/Cappuccino.png",
-      "name": "Cappuccino c/ calda...",
-      "description": "Cappuccino com calda de chocolate e chantilly.",
+      "name": "Cappuccino c/ Calda",
+      "description": "Um clássico cappuccino italiano enriquecido com calda de chocolate e uma generosa camada de chantilly.",
       "origin": "Itália",
-      "price": 6.0,
       "stars": 5,
       "available": false,
       "vars": [
@@ -70,7 +67,7 @@
           "available": true
         },
         {
-          "name": "Calda de caramelo",
+          "name": "Calda de Caramelo",
           "price": 8.0,
           "available": false
         }
@@ -79,9 +76,8 @@
     {
       "id": 4,
       "name": "Café Mocha",
-      "description": "Café expresso, chocolate e leite vaporizado.",
+      "description": "Uma harmoniosa combinação de café expresso, chocolate e leite vaporizado, criando um sabor rico e indulgente.",
       "origin": "México",
-      "price": 8.0,
       "stars": 4.5,
       "available": true,
       "vars": [
@@ -100,10 +96,10 @@
     {
       "id": 5,
       "name": "Café Macchiato",
-      "description": "Café expresso com um toque de leite.",
+      "description": "Uma dose de café expresso marcante com um toque delicado de leite, perfeito para um momento de sofisticação.",
       "origin": "Itália",
       "price": 5.5,
-      "star": 4.5,
+      "stars": 4.5,
       "available": true
     }
   ],
@@ -111,47 +107,54 @@
     {
       "id": 1,
       "name": "Misto Quente",
-      "description": "Pão de forma com queijo e presunto.",
+      "description": "Uma combinação simples e deliciosa de pão de forma grelhado com queijo derretido e presunto. Um clássico irresistível.",
       "origin": "Portugal",
       "price": 5.5,
-      "star": 4.5,
+      "stars": 4.5,
       "available": true
     },
     {
       "id": 2,
       "name": "Coxinha",
-      "description": "Massa de trigo recheada com frango e frita.",
+      "description": "Massa de trigo crocante recheada com um frango bem temperado e frita até atingir a perfeição.",
       "origin": "Brasil",
       "price": 4.0,
-      "star": 5.0,
+      "stars": 5.0,
       "available": true
     },
     {
       "id": 3,
       "name": "Empada de Frango",
-      "description": "Massa crocante recheada com frango desfiado.",
+      "description": "Uma empada com massa crocante e um recheio suculento de frango desfiado, ideal para um lanche rápido e saboroso.",
       "origin": "Portugal",
       "price": 3.5,
-      "star": 4.0,
+      "stars": 4.0,
       "available": false
     },
     {
       "id": 4,
       "name": "Pastel de Queijo",
-      "description": "Massa fina e crocante recheada com queijo derretido.",
+      "description": "Massa fina e crocante recheada com queijo derretido, perfeita para aqueles momentos de desejo por algo saboroso.",
       "origin": "Brasil",
       "price": 6.0,
-      "star": 4.8,
+      "stars": 4.8,
       "available": true
     },
     {
       "id": 5,
       "name": "Quibe",
-      "description": "Mistura de carne moída e trigo recheado com temperos árabes.",
+      "description": "Um prato típico da culinária árabe, feito com carne moída, trigo e temperos exóticos, criando uma combinação única e saborosa.",
       "origin": "Líbano",
       "price": 4.5,
-      "star": 4.3,
+      "stars": 4.3,
       "available": true
+    }
+  ],
+  "logins":  [
+    {
+      "id": 1,
+      "name": "Ronaldinho Gaucho",
+      "password": "ronaldinhogaucho123"
     }
   ]
 }

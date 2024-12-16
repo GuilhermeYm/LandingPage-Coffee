@@ -14,7 +14,7 @@ export default async function SecondPartSection({ data }) {
         </div>
         <div className="min-w-full ">
           <p className="text-sm text-white font-fontIrian ml-32">Descrição</p>
-          <DescriptionPartSection description={data.description}/> 
+          <DescriptionPartSection description={data}/> 
         </div>  
       </div>
     </>

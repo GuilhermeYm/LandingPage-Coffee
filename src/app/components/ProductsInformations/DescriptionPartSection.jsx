@@ -6,6 +6,6 @@ const inter = Inter({
   display: "swap",
 });
 
-export default async function DescriptionPartSection({ description }) {
-  return <p className={`pl-24 pt-3 ${inter.className}`}>{description}</p>;
+export default async function DescriptionPartSection({ data }) {
+  return <p className={`pl-24 pt-3 ${inter.className}`}>{data.description}</p>;
 }
