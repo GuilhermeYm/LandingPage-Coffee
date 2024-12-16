@@ -4,8 +4,14 @@ export async function POST(
     request, 
     response
 ) {
-    const { message } = await request.json() 
-  const dataLogin = data.logins;
-  const login = dataLogin.filter((d) => d.name)
-  return Response.json({});
+
+  const formData = await request.formData()
+  const name = formData.get('name')
+  const password = formData.get('password')
+  console.log(name, password)
+  return Response.json(
+    {
+      name
+    }
+  )
 }

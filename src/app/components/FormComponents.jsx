@@ -1,11 +1,8 @@
-"use client"
-
 import Form from "next/form";
+import ButtonComponents from "./ButtonComponents";
+import handleSubmit from "../action";
 
 export default function FormComponents() {
-  const handleSubmit = () => {
-    console.log("teste");
-  };
   return (
     <Form
       action={handleSubmit}
@@ -16,31 +13,28 @@ export default function FormComponents() {
           Nome
         </label>
         <input
-          type="name"
+          type="text"
           name="name"
           id="name"
           placeholder="Insira o seu nome de usuário"
           className="border border-black py-2 px-4 outline-none rounded-xl bg-whiteMain"
+          // onChange={(e) => setName(e.target.value)}
         />
       </div>
       <div className="flex flex-col">
-        <label htmlFor="name" className="text-xl">
+        <label htmlFor="password" className="text-xl">
           Senha
         </label>
         <input
           type="password"
-          name="name"
-          id="name"
+          name="password"
+          id="password"
           placeholder="Insira a sua senha"
           className="border border-black py-2 px-4 outline-none rounded-xl bg-whiteMain"
+          // onChange={(e) => setPassword(e.target.value)}
         />
       </div>
-      <button
-        type="submit"
-        className="text-white bg-backgroundMain w-fit rounded-2xl border border-white transition-all duration-300 px-6 py-2 hover:bg-backgroundArticle hover:text-black hover:border-black"
-      >
-        Entrar
-      </button>
+      <ButtonComponents />
     </Form>
   );
 }
