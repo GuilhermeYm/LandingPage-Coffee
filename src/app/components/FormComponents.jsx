@@ -1,6 +1,6 @@
 import Form from "next/form";
 import ButtonComponents from "./ButtonComponents";
-import handleSubmit from "../action";
+import handleSubmit from "../login/action";
 
 export default function FormComponents() {
   return (
