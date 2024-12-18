@@ -4,6 +4,7 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import useAPI from "@/app/hooks/useAPI";
+import { redirect } from "next/navigation";
 
 const loginSchema = z.object({
   name: z.string().min(1, "O nome é obrigatório"),
@@ -33,13 +34,12 @@ export default function FormComponents() {
 
   const handleLogin = async (data) => {
     const getLogin = await loginAPI(data);
-  
-    console.log(getLogin)
 
-    if ( getLogin ) { 
-      window.alert('Login bem-sucessido')
-    } else { 
-      window.alert('Deu erro')
+    if (getLogin) {
+      window.alert("Login bem-sucessido");
+      redirect("/adminPanel");
+    } else {
+      window.alert("Deu erro");
     }
   };
 

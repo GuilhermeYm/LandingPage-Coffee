@@ -41,6 +41,7 @@ export default {
   			backgroundFooter: 'var(--background-Footer)',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
+			backgroundHeaderAdmin: "var(--background-headerAdmin)",
   			card: {
   				DEFAULT: 'hsl(var(--card))',
   				foreground: 'hsl(var(--card-foreground))'

@@ -18,6 +18,15 @@
   --background-Services: #f2e8df;
   --background-ServicesItems: #261420;
   --background-Footer: #0c0c0e;
+  /*Background Admin*/
+  --background-headerAdmin: #1f1e26;
+
+  /*Gráfico*/
+  --color-expressCoffee: #4b2e2a;
+  --color-cappuccino: #6f4e37;
+  --color-paodequeijo: #8b5e3c;
+  --color-coadoCoffee: #5a3e36;
+  --color-latteCoffee: #c5a880;
 }
 
 @font-face {
@@ -62,6 +71,7 @@ body {
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
   }
+
   .dark {
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;

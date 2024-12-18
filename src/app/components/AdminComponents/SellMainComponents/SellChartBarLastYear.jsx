@@ -1,6 +1,6 @@
 "use client";
 
-import { LucideTrendingUp } from "lucide-react"
+import { LucideTrendingUp } from "lucide-react";
 import {
   Card,
   CardContent,
@@ -90,13 +90,13 @@ const chartConfig = {
   },
 };
 
-export default function SellChartLastYear() {
+export default function SellChartBarLastYear() {
   return (
-    <Card className="w-96 bg-zinc-700">
+    <Card className="w-96 bg-zinc-700 text-white">
       <CardHeader>
-        <CardTitle>Gráfico de vendas</CardTitle>
+        <CardTitle>Gráfico de vendas total</CardTitle>
         <CardDescription>
-          Gráfico de vendas deste ano, com o ano passado
+          Gráfico de vendas total deste ano, com o ano passado
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -113,6 +113,7 @@ export default function SellChartLastYear() {
             <ChartTooltip
               cursor={false}
               content={<ChartTooltipContent indicator="dashed" />}
+              className="rounded-md"
             />
             <Bar dataKey="2025" fill="var(--color-2025)" radius={4} />
             <Bar dataKey="2024" fill="var(--color-2024)" radius={4} />
@@ -121,7 +122,8 @@ export default function SellChartLastYear() {
       </CardContent>
       <CardFooter className="flex flex-col items-start gap-2 text-sm">
         <div className="flex gap-2 font-medium leading-none">
-          Tivemos um aumento consideravel, quando comparado ao ano passado <LucideTrendingUp />
+          Tivemos um aumento consideravel, quando comparado ao ano passado{" "}
+          <LucideTrendingUp />
         </div>
         <div className="leading-none text-muted-foreground">
           Gráfico mostra a quantidade total de produtos vendido durante um ano
