@@ -1,5 +1,5 @@
 import { Inter } from "next/font/google";
-import FormComponents from "../components/FormComponents";
+import FormComponents from "../components/LoginComponents/FormComponents";
 
 const inter = Inter({
   weight: ["400"],

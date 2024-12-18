@@ -1,24 +1,33 @@
+import { NextResponse } from "next/server";
 import data from "../server.json";
 const bcrypt = require("bcrypt");
 
 export async function POST(request, response) {
-  const formData = await request.json();
-  const nameFormData = formData.name;
-  const passwordFormData = formData.password;
-  const verifyLoginName = data.logins.filter((l) => l.name === nameFormData);
+  const dataRequest = await request.json();
+  const filterUser = data.logins.filter((l) => l.name === dataRequest.name);
 
-  const isPasswordCorrect = await bcrypt.compare(
-    passwordFormData,
-    verifyLoginName[0].password
+  const isCorrectPassword = await bcrypt.compare(
+    dataRequest.password,
+    filterUser[0].password
   );
 
-  if ( isPasswordCorrect ) { 
-    return Response.json({ 
-      message: "Deu tudo certo"
-    })
-  } else { 
-    return Response.json( { 
-      message: "Deu algum erro, tente novament e tente contatar o suporte"
-    })
+  if (isCorrectPassword) {
+    return NextResponse.json(
+      {
+        sucess: "Login feito com sucesso",
+      },
+      {
+        status: 200,
+      }
+    );
+  } else {
+    return NextResponse.json(
+      {
+        error: " Senha errada ",
+      },
+      {
+        status: 403,
+      }
+    );
   }
 }
