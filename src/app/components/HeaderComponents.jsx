@@ -14,11 +14,17 @@ export default function HeaderComponents() {
           Bico's Coffe
         </h2>
         <ul className="flex gap-7 h-full py-7 pr-5 items-center">
-          <li className="text-center">Home</li>
-          <li className="text-center">Contato</li>
-          <li className="text-center">Login</li>
-          <li className="text-center">
-            <CiShoppingCart className="text-2xl" />
+          <li className="text-center hover:font-bold cursor-pointer transition-all duration-300">
+            Home
+          </li>
+          <li className="text-center hover:font-bold cursor-pointer transition-all duration-300">
+            Contato
+          </li>
+          <li className="text-center hover:font-bold cursor-pointer transition-all duration-300">
+            Login
+          </li>
+          <li className="text-center cursor-pointer">
+            <CiShoppingCart className="text-2xl hover:text-3xl duration-300 transition-all ease-out" />
           </li>
         </ul>
       </nav>

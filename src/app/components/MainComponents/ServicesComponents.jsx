@@ -11,7 +11,7 @@ export default function ServicesComponents() {
   return (
     <article className="bg-backgroundServices w-full flex flex-col h-[494px]">
       <h2 className="font-fontIrian text-4xl mt-7 ml-4">Nossos serviços</h2>
-      <div className="h-96 mt-16 pb-28 xl:px-60 gap-20 flex w-full 2xl:px-96">
+      <div className="h-96 mt-16 pb-28 xl:px-60 gap-20 flex w-full 2xl:pl-[450px]">
         <section className="bg-backgroundServicesItems w-[299px] h-ServiceItemHeight rounded-3xl">
           <Image
             src={"/images/Serviços-1.png"}

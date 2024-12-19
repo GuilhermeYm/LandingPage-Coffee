@@ -106,11 +106,12 @@
   "salgados": [
     {
       "id": 1,
+      "image": "/images/salgados/MistoQuente.png",
       "name": "Misto Quente",
       "description": "Uma combinação simples e deliciosa de pão de forma grelhado com queijo derretido e presunto. Um clássico irresistível.",
       "origin": "Portugal",
       "price": 5.5,
-      "stars": 4.5,
+      "stars": 5,
       "available": true
     },
     {
@@ -119,7 +120,7 @@
       "description": "Massa de trigo crocante recheada com um frango bem temperado e frita até atingir a perfeição.",
       "origin": "Brasil",
       "price": 4.0,
-      "stars": 5.0,
+      "stars": 5,
       "available": true
     },
     {
@@ -128,7 +129,7 @@
       "description": "Uma empada com massa crocante e um recheio suculento de frango desfiado, ideal para um lanche rápido e saboroso.",
       "origin": "Portugal",
       "price": 3.5,
-      "stars": 4.0,
+      "stars": 4,
       "available": false
     },
     {
@@ -150,7 +151,29 @@
       "available": true
     }
   ],
-  "logins":  [
+  "milkShakes": [
+    {
+      "id": 1,
+      "image": "/images/outros/MilkShake.png",
+      "name": "Milk Shake",
+      "description": "Uma combinação simples e deliciosa de leite com chocolate.",
+      "origin": "Estados Unidos",
+      "price": 12,
+      "stars": 5,
+      "available": true
+    },
+    {
+      "id": 2,
+      "image": "/images/outros/MilkShake.png",
+      "name": "Milk Shake de Ovomaltine",
+      "description": "Uma combinação simples e deliciosa de leite com chocolate e ovomaltine.",
+      "origin": "Estados Unidos",
+      "price": 13,
+      "stars": 5,
+      "available": true
+    }
+  ],
+  "logins": [
     {
       "id": 1,
       "name": "Ronaldinho Gaucho",

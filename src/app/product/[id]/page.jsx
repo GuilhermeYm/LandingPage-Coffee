@@ -2,7 +2,7 @@ import FirstPartSection from "@/app/components/ProductsInformations/FirstPartSec
 import SecondPartSection from "@/app/components/ProductsInformations/SecondPartSection";
 
 const fetchProduct = async (id) => {
-  const response = await fetch(`http://localhost:3000/api/products/1`);
+  const response = await fetch(`http://localhost:3000/api/products/${id}`);
   const data = await response.json();
   console.log(data.coffeWithId[0].id)
   return data.coffeWithId[0];

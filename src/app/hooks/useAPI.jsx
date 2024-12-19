@@ -32,6 +32,10 @@ export default function useAPI() {
     }
   };
 
+  const editProduct = async (idProduct) => { 
+    
+  } 
+
   return {
     loginAPI,
   };
